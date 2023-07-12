@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="kodingkeun" class="scrollbar-hide scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kodingkeun.css">
+    <link rel="preconnect" href="https://www.kodingkeun.com/cloudme.fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://www.kodingkeun.com/cloudme.fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <title>CyberSec | About</title>
+</head>
+<body class="font-poppins">
+
+    <!-- navbar -->
+    <div class="w-screen fixed top-0 z-[999] transition-all duration-[.5s]" id="navbar-parent">
+        <div class="navbar bg-accent py-4 md:px-20 lg:px-28 relative transition-all" id="navbar">
+            <div class="navbar-start">
+                <a href="#home" class="normal-case text-xl">
+                    <img src="C.png" class="logo" alt="Kodingkeun Logo">
+                </a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-medium text-neutral text-lg flex gap-6">
+                <li><a href="../#home">Beranda</a></li>
+                <li><a href="../#portfolio">Portfolio</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#keanggotaan">Keanggotaan</a></li>
+                <li><a href="../#contact">Kontak</a></li>
+            </ul>
+            </div>
+            <div class="navbar-end lg:hidden flex">
+                <label class="btn btn-ghost bg-transparent swap swap-rotate">
+                    <!-- this hidden checkbox controls the state -->
+                    <input type="checkbox" id="menu-btn" />
+                    <!-- hamburger icon -->
+                    <svg class="swap-off text-neutral" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+                    <!-- close icon -->
+                    <svg class="swap-on text-neutral" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+                </label>
+            </div>
+
+            <div class="absolute top-[85%] left-0 lg:hidden block">
+                <ul tabindex="0" class="dropdown-content visible transition-all bg-transparent w-0 menu text-neutral text-md flex flex-col">
+                    <li class="overflow-hidden bg-accent w-0 transition-all py-2 duration-[.5s] ease-in-out"><a href="../#home" class="hover:bg-primary mx-3 md:mx-20 rounded-xl">Beranda</a></li>
+                    <li class="overflow-hidden bg-accent w-0 transition-all py-2 delay-150 duration-[.5s] ease-in-out "><a href="../#portfolio" class="hover:bg-primary mx-3 md:mx-20 rounded-xl">Portfolio</a></li>
+                    <li class="overflow-hidden bg-accent w-0 transition-all py-2 delay-200 duration-[.5s] ease-in-out "><a href="#keanggotaan" class="hover:bg-primary mx-3 md:mx-20 rounded-xl">Keanggotaan</a></li>
+                    <li class="overflow-hidden bg-accent w-0 transition-all py-2 delay-300 duration-[.5s] ease-in-out relative z-[99]"><a href="#about" class="hover:bg-primary mx-3 md:mx-20 rounded-xl">About</a></li>
+                    <li class="overflow-hidden bg-accent w-0 transition-all py-2 delay-400 duration-[.5s] ease-in-out pb-7"><a href="../#contact" class="hover:bg-primary mx-3 md:mx-20 rounded-xl">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- hero -->
+    <div class="relative pb-36">
+        <img src="https://kodingkeun.com/public/svg/wave about.svg" alt="Wave 1" class="col-span-4 absolute bottom-0 w-full ">
+        <div id="home" class="container mx-auto pt-[200px] px-5 lg:px-28">
+            <div class="bg-base-400 drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)] max-w-[700px] flex md:flex-row flex-col rounded-xl py-7 px-8 gap-8 items-center justify-center relative z-40">
+                <img src="Fathir_icon.png" alt="Ahmad fathir" width="170px" class="inline-block">
+                <div class="flex flex-col text-center md:text-start gap-3">
+                    <h1 class="text-neutral font-bold text-2xl">Ahmad fathir</h1>
+                    <p class="text-neutral text-xl font-medium italic">Founder</p>
+                    <p class="text-neutral text-xl font-medium">cybersec dibangun saat programmer tersenyum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero END -->
+
+    <!-- Tentang kami -->
+    <div class="bg-neutral">
+        <div class="container mx-auto text-center lg:px-28 pb-28">
+            <h1 class="md:text-4xl text-3xl font-bold text-accent pt-28">Tentang kami</h1>
+            <div class="flex flex-col gap-5 font-medium text-lg md:text-2xl text-[#1e1e1e] md:leading-10 px-5 md:px-28 mt-5 md:mt-10">
+                <p>cybersec adalah solusi bagi kamu yang ingin menguji keamanan website dan mempunyai website untuk bisnis dengan harga yang terjangkau!</p>
+                <p>Kami dapat membantu kamu membangun website portfolio, landing page company profile, toko online, aplikasi kasir, dan yang lainnya sesuai kebutuhanmu.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Tentang kami END -->
+
+    <!-- tim developer -->
+    <!-- <div  class="container mx-auto text-center px-5 md:px-28 pb-20">
+        <h1 class="md:text-4xl text-3xl font-bold text-white pt-28">Keanggotaan</h1>
+        <div class="grid grid-cols-2 lg:grid-cols-4 justify-center gap-7 md:gap-16 mt-10 md:mt-16 place-items-center">
+            <img src="user.png" alt="Dafi Nurrohman Maulana">
+            <img src="user.png" alt="Fahri Gunadi">
+            <img src="user.png" alt="Fajar Hidayatuloh">
+            <img src="user.png" alt="Ibnu Syawal Asalim">
+        </div>
+    </div> -->
+    <!-- tim developer END -->
+
+    <!-- jasa kami -->
+    <div class="bg-neutral">
+        <div class="conatiner mx-auto text-center">
+            <div class="lg:px-[180px] px-5">
+                <h1 class="md:text-4xl text-3xl font-bold text-accent pt-28">Jasa kami lainnya</h1>
+                <p class=" font-medium text-lg md:text-2xl text-[#1e1e1e] md:leading-10 md:px-28 mt-5 md:mt-10"> <span class="font-bold">Votingkeun</span> memiliki fitur pemungutan suara lengkap, mulai dari manajemen voting hingga data laporan yang akurat.</p>
+            </div>
+
+            <div class="carousel relative md:my-10 w-full mx-auto" id="carousel-2">
+                <div class="carousel-inner snap-x snap-mandatory overflow-scroll scrollbar-hide w-full flex gap-[500px] justify-between py-10 md:py-16" id="carousel-inner-2">
+                    
+                    <div class="carousel-item drop-shadow-lg md:drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)] snap-center ml-[300px] flex flex-col md:flex-row items-center justify-center w-full">
+                        <img src="https://kodingkeun.com/public/img/votingkeun1.png" alt="Votingkeun landing page" class="inline-block w-[90%] sm:w-[500px] md:w-[700px] lg:w-[950px]">
+                    </div>
+    
+                    <div class="carousel-item drop-shadow-lg md:drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)] snap-center flex flex-col md:flex-row items-center justify-center w-full">
+                        <img src="https://kodingkeun.com/public/img/Votingkeun 2.png" alt="Votingkeun landing page solution" class="inline-block w-[90%] sm:w-[500px] md:w-[700px] lg:w-[950px]">
+                    </div>
+    
+                    <div class="carousel-item drop-shadow-lg md:drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)] snap-center flex flex-col md:flex-row items-center justify-center w-full">
+                        <img src="https://kodingkeun.com/public/img/Votingkeun 3.png" alt="Votingkeun landing page package" class="inline-block w-[90%] sm:w-[500px] md:w-[700px] lg:w-[950px]">
+                    </div>
+    
+                    <div class="carousel-item drop-shadow-lg md:drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)] snap-center flex flex-col md:flex-row items-center justify-center w-full">
+                        <img src="https://kodingkeun.com/public/img/Votingkeun 4.png" alt="Votingkeun landing page management voter" class="inline-block w-[90%] sm:w-[500px] md:w-[700px] lg:w-[950px]">
+                    </div>
+
+                    <div class="carousel-item drop-shadow-lg md:drop-shadow-[10px_10px_10px_rgba(0,0,0,0.35)] snap-center flex flex-col md:flex-row items-center justify-center w-full">
+                        <img src="https://kodingkeun.com/public/img/Votingkeun 5.png" alt="Votingkeun landing page management vote" class="inline-block w-[90%] sm:w-[500px] md:w-[700px] lg:w-[950px]">
+                    </div>
+    
+                </div>
+                <button class="absolute top-1/2 md:left-5 lg:left-20 invisible md:visible transform -translate-y-[25px] transition-all z-40 text-white rounded-full flex items-center justify-center prev">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="#00000" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M42.5775 6.17243C42.7521 6.34661 42.8906 6.55351 42.9852 6.78131C43.0797 7.0091 43.1283 7.25331 43.1283 7.49993C43.1283 7.74656 43.0797 7.99077 42.9852 8.21856C42.8906 8.44635 42.7521 8.65326 42.5775 8.82743L21.4012 29.9999L42.5775 51.1724C42.9296 51.5245 43.1274 52.002 43.1274 52.4999C43.1274 52.9978 42.9296 53.4754 42.5775 53.8274C42.2254 54.1795 41.7479 54.3773 41.25 54.3773C40.7521 54.3773 40.2746 54.1795 39.9225 53.8274L17.4225 31.3274C17.2479 31.1533 17.1093 30.9464 17.0148 30.7186C16.9203 30.4908 16.8716 30.2466 16.8716 29.9999C16.8716 29.7533 16.9203 29.5091 17.0148 29.2813C17.1093 29.0535 17.2479 28.8466 17.4225 28.6724L39.9225 6.17243C40.0967 5.99782 40.3036 5.85929 40.5314 5.76476C40.7592 5.67024 41.0034 5.62158 41.25 5.62158C41.4966 5.62158 41.7408 5.67024 41.9686 5.76476C42.1964 5.85929 42.4033 5.99782 42.5775 6.17243Z"/>
+                    </svg>
+                </button>
+                <button class="absolute top-1/2 md:right-5 lg:right-20 invisible md:visible transform -translate-y-[25px] transition-all z-40 text-white rounded-full flex items-center justify-center next">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="#00000" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4225 6.17243C17.5967 5.99782 17.8036 5.85929 18.0314 5.76476C18.2592 5.67024 18.5034 5.62158 18.75 5.62158C18.9966 5.62158 19.2408 5.67024 19.4686 5.76476C19.6964 5.85929 19.9033 5.99782 20.0775 6.17243L42.5775 28.6724C42.7521 28.8466 42.8906 29.0535 42.9852 29.2813C43.0797 29.5091 43.1283 29.7533 43.1283 29.9999C43.1283 30.2466 43.0797 30.4908 42.9852 30.7186C42.8906 30.9464 42.7521 31.1533 42.5775 31.3274L20.0775 53.8274C19.7254 54.1795 19.2479 54.3773 18.75 54.3773C18.2521 54.3773 17.7746 54.1795 17.4225 53.8274C17.0704 53.4754 16.8726 52.9978 16.8726 52.4999C16.8726 52.002 17.0704 51.5245 17.4225 51.1724L38.5987 29.9999L17.4225 8.82743C17.2479 8.65326 17.1093 8.44635 17.0148 8.21856C16.9203 7.99077 16.8716 7.74656 16.8716 7.49993C16.8716 7.25331 16.9203 7.0091 17.0148 6.78131C17.1093 6.55351 17.2479 6.34661 17.4225 6.17243Z"/>
+                    </svg>                        
+                </button>
+            </div>  
+            <div class="pb-28">
+                <h1 class="md:text-3xl text-lg font-bold text-[#1e1e1e] mb-10">Pesan jasa voting online dari kami sekarang juga!</h1>
+                <a href="https://api.whatsapp.com/send/?phone=%2B6285298227004&text&type=phone_number&app_absent=0" target="_blank" class="btn btn-secondary text-xl rounded-full font-medium col-span-2 text-black normal-case">Pesan disini</a>
+            </div>
+        </div>
+    </div>
+    <!-- jasa kami end -->
+
+    <!-- komunitas -->
+    <div id="keanggotaan" class="container mx-auto text-center px-5 lg:px-[300px] pb-28">
+        <h1 class="md:text-4xl text-2xl font-bold pt-10 md:pt-28 text-white">Keanggotaan</h1>
+        <img src="https://kodingkeun.com/public/img/link group.png" alt="Banner komunitas group" class="mx-auto my-10">
+        <p class="md:text-2xl text-lg font-medium text-neutral"> <span class="font-bold">Kodingkeun Community</span>  merupakan forum yang kami sediakan untuk kamu yang ingin berdiskusi soal IT.</p>
+
+        <a href="https://chat.whatsapp.com/HmspQSl10lRLblKtIOrPF1" target="_blank" class="btn btn-secondary text-2xl rounded-full font-medium col-span-2 text-black normal-case my-12 px-10">Join disini</a>
+        
+    </div>  
+    <!-- komunitas END -->
+    
+    <!-- footer 2 -->
+    <div class="w-screen bg-accent flex md:flex-row flex-col justify-between md:px-28 py-4 items-center">
+        <img src="C.png" class="logo"  alt="Kodingkeun" class="mb-10 md:mb-0">
+        <p class="text-neutral font-medium text-md">&copy; 2023 | Made by fathir. </p>
+    </div>
+    <!-- footer 2 END -->
+    <!-- <script src="https://kodingkeun.com/dist/kodingkeun.js"></script> -->
+</body>
+</html>
